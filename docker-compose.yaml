@@ -1,0 +1,8 @@
+version: '3'
+
+services:
+  backend-java:
+    image: jgmatosmota/backend-java:1.8
+    command: ["java", "-jar", "/app/backend-java.jar"]
+    ports:
+      - "8080:8080"
